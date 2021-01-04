@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+*{
+    padding:0px;
+    margin: 0px;;
+}
+
+header{  
+    
+    position: relative;
+    
+}
+header .p{
+    
+    width: 757px;
+    height: 45px;
+    display: flex;
+    margin: 34px auto auto 472px;
+    position: absolute;
+}
+header .logo p{
+    font-family: Questrial;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 46px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #2E4967;
+
+    margin-right:157px ;
+}
+
+
+/*nav*/
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    
+}
+
+nav > ul {
+    list-style: none;   /* 移除項目符號 */
+
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 33px;
+/* identical to box height */
+    color: #2E4967;
+}
+
+.header-nav nav ul{
+    display: flex ;
+}
+.header-nav li{
+    display: flex;
+}
+
+.content-up {
+    position: absolute;
+    margin-top:230px ;
+    margin-left: 800px;
+}
+
+.content-up .up-p{
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 33px;
+    text-align: right;
+
+    color: #2E4967;
+}
+.up-flex {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 38px;
+
+}
+.up-flex button{
+    background-color: transparent;
+    border: 2px solid #2E4967;
+    border-radius: 5px;
+    width: 217px;
+    height: 61px;
+}
+.up-flex label {
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 31px;
+    
+/* identical to box height */
+
+color: #2E4967;
+}
+
+img{
+    width: 1280px;
+    display:block;
+}
+
+/*mid*/
+
+.content-mid {
+    position: absolute;
+    margin-top:130px ;
+    margin-left: 118px;
+}
+
+.content-mid .mid-p{
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 33px;
+    text-align: left;
+
+    color: #2E4967;
+}
+.mid-flex {
+    display: flex;
+    justify-content: flex-start;
+
+    margin-top: 38px;
+
+}
+.mid-flex button{
+    background-color: transparent;
+    border: 2px solid #2E4967;
+    border-radius: 5px;
+    width: 179px;
+    height: 61px;
+}
+.mid-flex label {
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 31px;
+}
+
+/*down*/
+
+.content-down {
+    position: absolute;
+    margin-top:130px ;
+    margin-left: 750px;
+}
+
+.content-down .down-p{
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 33px;
+    text-align: right;
+
+    color: #2E4967;
+}
+.down-flex {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 38px;
+
+}
+.down-flex button{
+    background-color: transparent;
+    border: 2px solid #2E4967;
+    border-radius: 5px;
+    width: 261px;
+    height: 61px;
+}
+.down-flex label {
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 31px;
+}
+
+/*footer*/
+
+footer{
+    width: 1280px;
+    background: #E1DEDE; 
+    display: flex;
+    justify-content: space-between;
+}
+footer .img-unicorn{
+    width: 100px;
+    height: 130px;
+}
+
+.footer-left{
+    display: flex;
+    margin-top:13px ;
+    
+    margin-left: 52px;
+    margin-bottom: 22px;
+}
+.footer-left p{
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 33px;
+    color: #2E4967;
+
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.footer-right {
+    margin-right: 49px;
+
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 29px;
+    color: #2E4967;
+}
+
+.footer-right  div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top:27px ;
+}
+
+.ig , 
+.fb{
+    width: 55px;
+    height: 55px;
+}
+.fb{
+    margin-left:47px ;
+    margin-right: 10px;
+    margin-bottom:20px ;
+}
